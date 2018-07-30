@@ -37,9 +37,11 @@ You will also need to install the python dependency with pip.
 ```bash
 pip install pigpio
 ```
-Once pigpio is installed you'll need to start the pigpio process. **This must be done each time your Raspberry Pi boots.**
+Once pigpio is installed you'll need to start the pigpio process. 
+
+**This must be done each time your Raspberry Pi boots.**
 ```bash
-sudo pygpiod
+sudo pigpiod
 ```
 
 ## 3. Downloading the IR Test
