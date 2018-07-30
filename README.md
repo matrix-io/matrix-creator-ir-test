@@ -39,7 +39,7 @@ pip install pigpio
 ```
 Once pigpio is installed you'll need to start the pigpio process. 
 
-**This must be done each time your Raspberry Pi boots.**
+> **This must be done each time your Raspberry Pi boots.**
 ```bash
 sudo pigpiod
 ```
