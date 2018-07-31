@@ -37,12 +37,6 @@ You will also need to install the python dependency with pip.
 ```bash
 pip install pigpio
 ```
-Once pigpio is installed you'll need to start the pigpio process. 
-
-> **This must be done each time your Raspberry Pi boots.**
-```bash
-sudo pigpiod
-```
 
 ## 3. Downloading the IR Test
 With all the required dependencies installed, you can now run the following commands to clone this repository in your Raspberry Pi.
@@ -52,6 +46,14 @@ cd ~/
 git clone https://github.com/matrix-io/matrix-creator-ir-test
 ```
 ## 4. Running the IR Test
+
+When running this test you'll need to start the pigpio process. 
+
+**This must be done each time your Raspberry Pi boots.**
+```bash
+sudo pigpiod
+```
+
 The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example.
 
 This example comes with two commands:
