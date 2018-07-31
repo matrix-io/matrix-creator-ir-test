@@ -54,13 +54,13 @@ When running this test you'll need to start the pigpio process.
 sudo pigpiod
 ```
 
-The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example.
+The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example. Below are the test commands you can run.
 
-This example comes with two commands:
 - **Record**: This command allows you to specify the names of each IR signal you want to record. The command below will ask for 2 IR signals to signify the `volume + & volume -` and store them in a local file named `ir_codes.json`.
 ```bash
 python ~/matrix-creator-ir-test/ir_remote.py -r -g16 -f codes.json volume_up volume_down
 ```
+
 - **Playback**: This command allows you to play any IR signal recorded with the previously mentioned command. The command below will play the IR signal that was stored as `volume_up` in `codes.json`
 ```bash
 python ~/matrix-creator-ir-test/ir_remote.py -p -g13 -f codes.json volume_up
