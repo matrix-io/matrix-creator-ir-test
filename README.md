@@ -1,10 +1,14 @@
 # Overview
 Using the [pigpio](http://abyz.me.uk/rpi/pigpio/) library, this repository will test the IR sensor & IR emitter of your MATRIX Creator by recording and playing back an IR signal you give it.
 
-The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example. 
+The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example.
+
+![](./demo.gif)
 
 # Setup
-![](./demo.gif)
+This guide will be utilizing pins **13 & 16** of the Raspberry Pi. These are connected to the MATRIX Creators IR transmitter & IR reciver respectivly. For reference, below is an image of the Raspberry Pi GPIO connected to the MATRIX Creator
+
+![](https://matrix-io.github.io/matrix-documentation/matrix-creator/img/m-7.png)
 
 ## 1. Installing the MATRIX Dependencies
 Keep in mind, that installing any of the [MATRIX Programming Environments](https://matrix-io.github.io/matrix-documentation/#programming-layers) will also include these MATRIX Dependencies.
@@ -52,12 +56,13 @@ cd matrix-creator-ir-test
 ```
 ## 4. Running the IR Test
 
-When running this test you'll need to start the pigpio process. 
+When running this test you'll need to start the pigpio process.
 
 **This must be done each time your Raspberry Pi boots.**
 ```bash
 sudo pigpiod
 ```
+
 
 Below are the test commands you can run.
 
