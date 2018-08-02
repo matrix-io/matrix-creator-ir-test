@@ -1,6 +1,8 @@
 # Overview
 Using the [pigpio](http://abyz.me.uk/rpi/pigpio/) library, this repository will test the IR sensor & IR emitter of your MATRIX Creator by recording and playing back an IR signal you give it.
 
+The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example. 
+
 # Setup
 ![](./demo.gif)
 
@@ -57,7 +59,7 @@ When running this test you'll need to start the pigpio process.
 sudo pigpiod
 ```
 
-The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example. Below are the test commands you can run.
+Below are the test commands you can run.
 
 - **Record**: This command allows you to specify the names of each IR signal you want to record. The command below will ask for 2 IR signals to signify the `volume + & volume -` and store them in a local file named `ir_codes.json`.
 ```bash
