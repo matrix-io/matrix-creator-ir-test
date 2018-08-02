@@ -46,6 +46,7 @@ With all the required dependencies installed, you can now run the following comm
 sudo apt-get install git
 cd ~/
 git clone https://github.com/matrix-io/matrix-creator-ir-test
+cd matrix-creator-ir-test
 ```
 ## 4. Running the IR Test
 
@@ -60,10 +61,10 @@ The exmaple in this repository is taken from the [IR Record and Playback](http:/
 
 - **Record**: This command allows you to specify the names of each IR signal you want to record. The command below will ask for 2 IR signals to signify the `volume + & volume -` and store them in a local file named `ir_codes.json`.
 ```bash
-python ~/matrix-creator-ir-test/ir_remote.py -r -g16 -f codes.json volume_up volume_down
+python ir_remote.py -r -g16 -f codes.json volume_up volume_down
 ```
 
 - **Playback**: This command allows you to play any IR signal recorded with the previously mentioned command. The command below will play the IR signal that was stored as `volume_up` in `codes.json`
 ```bash
-python ~/matrix-creator-ir-test/ir_remote.py -p -g13 -f codes.json volume_up
+python ir_remote.py -p -g13 -f codes.json volume_up
 ```
