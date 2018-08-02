@@ -6,7 +6,7 @@ The exmaple in this repository is taken from the [IR Record and Playback](http:/
 ![](./demo.gif)
 
 # Setup
-This guide will be utilizing pins **13 & 16** of the Raspberry Pi. These pins are connected to the MATRIX Creators **IR transmitter** & **IR receivers**, respectivly. For reference, below is an image of the Raspberry Pi GPIO connected to the MATRIX Creator
+This guide will be utilizing pins **13 & 16** of the Raspberry Pi. These pins are connected to the MATRIX Creator's **IR transmitter** & **IR receivers**, respectivly. For reference, below is an image of the Raspberry Pi GPIO connected to the MATRIX Creator.
 
 ![](https://matrix-io.github.io/matrix-documentation/matrix-creator/img/m-7.png)
 
@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt-get upgrade 
 ```
 
-Install the matrix creator init package.
+Install the MATRIX Creator init package.
 ```bash
 sudo apt-get install matrixio-creator-init 
 ```
