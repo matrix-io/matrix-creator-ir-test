@@ -2,6 +2,8 @@
 Using the [pigpio](http://abyz.me.uk/rpi/pigpio/) library, this repository will test the IR sensor & IR emitter of your MATRIX Creator by recording and playing back an IR signal you give it.
 
 # Setup
+![](./demo.gif)
+
 ## 1. Installing the MATRIX Dependencies
 Keep in mind, that installing any of the [MATRIX Programming Environments](https://matrix-io.github.io/matrix-documentation/#programming-layers) will also include these MATRIX Dependencies.
 
