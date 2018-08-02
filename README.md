@@ -6,7 +6,7 @@ The exmaple in this repository is taken from the [IR Record and Playback](http:/
 ![](./demo.gif)
 
 # Setup
-This guide will be utilizing pins **13 & 16** of the Raspberry Pi. These are connected to the MATRIX Creators IR transmitter & IR reciver respectivly. For reference, below is an image of the Raspberry Pi GPIO connected to the MATRIX Creator
+This guide will be utilizing pins **13 & 16** of the Raspberry Pi. These are connected to the MATRIX Creators **IR transmitter** & **IR reciver**, respectivly. For reference, below is an image of the Raspberry Pi GPIO connected to the MATRIX Creator
 
 ![](https://matrix-io.github.io/matrix-documentation/matrix-creator/img/m-7.png)
 
