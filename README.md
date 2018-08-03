@@ -1,7 +1,7 @@
 # Overview
 Using the [pigpio](http://abyz.me.uk/rpi/pigpio/) library, this repository will test the IR sensor & IR emitter of your MATRIX Creator by recording and playing back an IR signal you give it.
 
-The exmaple in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example.
+The example in this repository is taken from the [IR Record and Playback](http://abyz.me.uk/rpi/pigpio/examples.html#Python_irrp_py) pigpio example.
 
 ![](./demo.gif)
 
