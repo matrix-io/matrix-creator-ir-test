@@ -47,9 +47,13 @@ pip install pigpio
 ```
 
 ## 3. Downloading the IR Test
+You'll need to install git, if you havn't already.
+``` bash
+sudo apt-get install git
+```
+
 With all the required dependencies installed, you can now run the following commands to clone this repository in your Raspberry Pi.
 ```bash 
-sudo apt-get install git
 cd ~/
 git clone https://github.com/matrix-io/matrix-creator-ir-test
 cd matrix-creator-ir-test
